@@ -1,0 +1,9 @@
+.suggestionsWrapper {
+    position: absolute;
+    top: 42px;
+    background-color: white;
+    color: black;
+    width: 288px;
+    z-index: 1;
+    padding: 10px 0;
+}

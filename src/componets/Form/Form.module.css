@@ -1,0 +1,19 @@
+.form {
+    background-color: #282c34;
+    color: #61dafb;
+    padding: 20px;
+    box-shadow: 5px -19px 15px #61dafb;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input {
+    width: 280px;
+}
