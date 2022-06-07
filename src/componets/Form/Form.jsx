@@ -19,7 +19,7 @@ export const Form = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    alert(JSON.stringify(data));
+    alert("Новый клиент успешно создан");
   };
 
   return (
