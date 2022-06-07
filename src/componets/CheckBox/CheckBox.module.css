@@ -1,0 +1,12 @@
+.checkBox {
+    align-self: start;
+    display: flex;
+    align-items: center;
+}
+
+.checkBox input {
+    margin: 0 0 0 5px;
+}
+.checkBox input:checked {
+    accent-color: #61dafb;
+}

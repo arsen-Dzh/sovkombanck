@@ -1,14 +1,3 @@
-// import { useState } from "react";
-// import RS from "react-select";
-
-// const Select = ({ options }) => {
-//   // const [current, setCurrent] = useState();
-//
-//   return <RS options={options} />;
-// };
-
-// export default Select;
-
 import RS from "react-select";
 import { Controller } from "react-hook-form";
 
@@ -21,6 +10,7 @@ const Select = ({ name, control, values }) => {
       render={({ field: { value, onChange, onBlur } }) => {
         return (
           <RS
+            placeholder={"...."}
             options={options}
             onChange={onChange}
             onBlur={onBlur}

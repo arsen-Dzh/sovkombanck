@@ -29,7 +29,11 @@ export const ToolTip = ({ search }) => {
       {tooltip.length > 0 ? (
         <div ref={toolTipRef} className={styles.suggestionsWrapper}>
           {tooltip.map((name) => (
-            <div onClick={() => clickHandler(name.value)} key={uuidv4()}>
+            <div
+              className={styles.name}
+              onClick={() => clickHandler(name.value)}
+              key={uuidv4()}
+            >
               {name.value}
             </div>
           ))}

@@ -1,9 +1,28 @@
 .suggestionsWrapper {
     position: absolute;
-    top: 42px;
+    top: 63px;
     background-color: white;
     color: black;
-    width: 288px;
+    width: 298px;
     z-index: 1;
-    padding: 10px 0;
+    /*padding: 10px;*/
+    border-radius: 4px;
+}
+.name {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.name:active {
+    background-color: #B2D4ff
+}
+
+.name:hover {
+    background-color: #deebff
+}
+
+@media (max-width: 370px) {
+    .suggestionsWrapper {
+        width: 261px;
+    }
 }

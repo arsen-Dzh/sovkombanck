@@ -12,6 +12,7 @@ const MultiSelect = ({ name, control, values }) => {
           <RS
             options={options}
             isMulti
+            placeholder={"...."}
             onChange={(options) =>
               onChange(options?.map((option) => option.value))
             }
